@@ -147,7 +147,7 @@ html {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #333;
+  color: red;
   transition: .3s;
   }
   .header .links ul li a:hover{
@@ -157,9 +157,7 @@ html {
   .header .links ul li:not(:last-child) a{
     border-bottom: 1px solid #ddd;
   }
-  .header ul li a:hover{
-    color: red;
-  }
+ 
 }
 /* Medium */
 @media (min-width:767px) {
@@ -227,6 +225,7 @@ max-width: 100%;
       font-size: 19px;
       line-height: 1.8;
       text-align: center;
+      color: #385667;
     }
      /* end landing section  */
      /* start Features  */
